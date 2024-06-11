@@ -26,3 +26,5 @@ if (current.x_sccpl_fldservinc_field_service_incident.nil()) {
     grFSI.cmdb_ci = current.cmdb_ci;
     grFSI.location = current.location;
     grFSI.priority = current.priority;
+
+    gs.log('Test Log Message');
